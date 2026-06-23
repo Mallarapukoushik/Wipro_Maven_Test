@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">50,822</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Runner.JpetRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1781760057867</td><td rowspan="2">23378</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">Runner.JpetRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login with valid credentials&quot;</td><td>&quot;Login to jpet store&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.tagName: body to contain text &quot;Welcome j2ee!&quot;. Current text: &quot;SAMPLE APPS
+GET INVOLVED
+MONITORING
+A FULL-STACK SAMPLE WEB APPLICATION BUILT ON TOP OF ASPECTRAN AND MYBATIS
+JPetStore Demo
+The goal of the JPetStore Demo App is to provide and demonstrate a sample web application that leverages Aspectran and MyBatis.
+Sample Apps
+JPetStore Demo
+Fish
+Dogs
+Reptiles
+Cats
+Birds
+AppMon
+?
+0 My Orders
+Welcome irondjerwif!
+Fish
+Saltwater, Freshwater
+Dogs
+Various Breeds
+Cats
+Various Breeds, Exotic Varieties
+Reptiles
+Lizards, Turtles, Snakes
+Birds
+Exotic Varieties
+Pet Favorites
+Shop for more of your favorite pets here.
+Bulldog
+Poodle
+Dalmation
+Golden Retriever
+Labrador Retriever
+Chihuahua
+aspectran.com
+mybatis.org
+ABOUT ASPECTRAN
+Aspectran is a lightweight, high‑performance framework for building both simple shell applications and large enterprise web services on the JVM.
+GET INVOLVED
+GitHub
+Copyright © 2008-present The Aspectran Project
+Powered by Aspectran 9.6.1-SNAPSHOT&quot;.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.69, fedcm:accounts: true, goog:processID: 17636, ms:edgeOptions: {debuggerAddress: localhost:51322}, msedge: {msedgedriverVersion: 149.0.4022.69 (6c7df6d8a61d..., userDataDir: C:\Users\MA2069~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51322/devtoo..., se:cdpVersion: 149.0.4022.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45b436623386a323f2b535f5d267abc4
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at StepDef.JpetSteps.user_should_be_logged_in_and_see_greeting_for_user(JpetSteps.java:47)
+	at ✽.user should be logged in and see greeting for user &quot;j2ee&quot;(file:///C:/Users/MA20696615/eclipse-workspace/Mavenproject/src/test/java/feature/Jpet.feature:7)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Runner.JpetRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login with valid credentials&quot;</td><td>&quot;Login to jpet store&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.tagName: body to contain text &quot;Welcome Admin!&quot;. Current text: &quot;SAMPLE APPS
+GET INVOLVED
+MONITORING
+A FULL-STACK SAMPLE WEB APPLICATION BUILT ON TOP OF ASPECTRAN AND MYBATIS
+JPetStore Demo
+The goal of the JPetStore Demo App is to provide and demonstrate a sample web application that leverages Aspectran and MyBatis.
+Sample Apps
+JPetStore Demo
+Fish
+Dogs
+Reptiles
+Cats
+Birds
+AppMon
+?
+0 Sign In Sign Up
+Please enter your username and password.
+Username:
+Password:
+Login
+Invalid username or password. Signon failed.
+Need a username and password? Register Now!
+aspectran.com
+mybatis.org
+ABOUT ASPECTRAN
+Aspectran is a lightweight, high‑performance framework for building both simple shell applications and large enterprise web services on the JVM.
+GET INVOLVED
+GitHub
+Copyright © 2008-present The Aspectran Project
+Powered by Aspectran 9.6.1-SNAPSHOT&quot;.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 149.0.4022.69, fedcm:accounts: true, goog:processID: 27140, ms:edgeOptions: {debuggerAddress: localhost:64128}, msedge: {msedgedriverVersion: 149.0.4022.69 (6c7df6d8a61d..., userDataDir: C:\Users\MA2069~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64128/devtoo..., se:cdpVersion: 149.0.4022.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 792c1d7976c8810e87ff9e9814eca471
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at StepDef.JpetSteps.user_should_be_logged_in_and_see_greeting_for_user(JpetSteps.java:47)
+	at ✽.user should be logged in and see greeting for user &quot;Admin&quot;(file:///C:/Users/MA20696615/eclipse-workspace/Mavenproject/src/test/java/feature/Jpet.feature:7)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

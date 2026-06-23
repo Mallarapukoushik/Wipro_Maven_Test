@@ -1,0 +1,31 @@
+2026-06-05 14:53:19,683 INFO  testing.Log4JDemo - Starting the browser setup
+2026-06-05 14:53:25,509 INFO  testing.Log4JDemo - Browser launched successfully
+2026-06-05 14:53:25,591 INFO  testing.Log4JDemo - Navigating to google
+2026-06-05 14:53:26,723 INFO  testing.Log4JDemo - Page title is:Google
+2026-06-05 14:53:26,742 INFO  testing.Log4JDemo - Closing the browser..
+2026-06-05 14:53:27,285 INFO  testing.Log4JDemo - Browser is closed...
+2026-06-08 10:42:28,956 INFO  testing.Log4JDemo - Starting the browser setup
+2026-06-08 10:42:32,314 INFO  testing.Log4JDemo - Browser launched successfully
+2026-06-08 10:42:32,339 INFO  testing.Log4JDemo - Navigating to orangehrm
+2026-06-08 10:42:36,992 INFO  testing.Log4JDemo - Page title is:OrangeHRM
+2026-06-08 10:42:42,580 INFO  testing.Log4JDemo - Closing browser
+2026-06-08 10:52:39,525 INFO  testing.Log4JDemo - Starting the browser setup
+2026-06-08 10:52:42,488 INFO  testing.Log4JDemo - Browser launched successfully
+2026-06-08 10:52:42,527 INFO  testing.Log4JDemo - Navigating to orangehrm
+2026-06-08 10:52:48,382 INFO  testing.Log4JDemo - Page title is:OrangeHRM
+2026-06-08 10:52:55,051 INFO  testing.Log4JDemo - Closing browser
+2026-06-08 14:16:48,218 INFO  testing.Log4JDemo - Starting the browser setup
+2026-06-08 14:16:50,923 INFO  testing.Log4JDemo - Browser launched successfully
+2026-06-08 14:16:50,944 INFO  testing.Log4JDemo - Navigating to orangehrm
+2026-06-08 14:16:54,508 INFO  testing.Log4JDemo - Closing browser
+2026-06-10 09:56:56,092 INFO  testing.Log4JDemo - Starting the browser setup
+2026-06-10 09:57:03,446 INFO  testing.Log4JDemo - Browser launched successfully
+2026-06-10 09:57:03,535 INFO  testing.Log4JDemo - Navigating to google
+2026-06-10 09:57:06,201 INFO  testing.Log4JDemo - Page title is:Google
+2026-06-10 09:57:06,212 INFO  testing.Log4JDemo - Closing the browser..
+2026-06-10 09:57:06,555 INFO  testing.Log4JDemo - Browser is closed...
+2026-06-10 10:26:05,681 INFO  testing.Log4JDemo - Extent Report Setup Completed
+2026-06-10 10:26:09,490 INFO  testing.Log4JDemo - Browser opened
+2026-06-10 10:26:09,602 INFO  testing.Log4JDemo - Navigating to JPetStore URL
+2026-06-10 10:26:19,967 INFO  testing.Log4JDemo - Closed the Browser
+2026-06-10 10:26:20,640 INFO  testing.Log4JDemo - Extent Report Generated
